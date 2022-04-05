@@ -1,0 +1,73 @@
+<html>
+<style>
+body {
+  font-family: serif;
+  background: linear-gradient(20deg, blue, red);
+  color: gray;
+  text-shadow: 2px 2px 2px #000000;
+  text-align: center;
+}
+.description {
+  font-family: cursive;
+  font-size: 21px;
+  color: orange;
+  text-shadow: 0px 0px 0px #000000;
+  text-align: center;
+ }
+div {
+  margin: 10px;
+  font-family: arial;
+  color: white;
+  text-align: center;
+}
+</style>
+<head>
+ <h1 id="title"> Research Form  </h1>
+</head>
+  <p id="description" class="description"> Fill in your details to participate</p>
+ <body>
+  <form id="survey-form"> 
+  <div>
+   <label for="name" id="name-label" >Name </label>
+      <input type="text" required id="name" placeholder="Name" name="name">
+ </div>
+ <div>
+   <label for="email" id="email-label" >E-mail</label>
+   <input type="email" required id="email" placeholder="fulano@mail.com" name="email">
+ </div>
+ <div>
+   <label for="number" id="number-label" >Age </label>
+   <input type="number" required id="number" placeholder="your age" name="fone" min="7" max="90"> 
+ </div>
+ <div>
+    <label for="dropdown" id="dropdown-label" >City </label>
+    <select id="dropdown">
+      <option value="RJ" > Rio de Janeiro </option>
+      <option value="SP"> Sao Paulo </option>
+      <option value="PR"> Paraná </option>
+    </select>
+</div>
+<div>
+  <p>Choose your gender:</p>
+    <label for="male" id="male-label">Male </label>
+    <input type="radio" id="male" name="gender" value="M" >
+    <label for="female" id="female-label">Female </label>
+    <input type="radio" id="female" name="gender" value="F">
+ </div>
+ <div>
+      <p> Contact by </p>
+    <label for="contact-email" id="contact-email-label">E-mail </label>
+    <input type="checkbox" id="contact-email" name="contactemail" value="true">
+    <label for="contact-fone" id="contact-fone-label">Fone </label>
+    <input type="checkbox" id="contact-fone" name="contactfone" value="true">
+ </div>
+ <div>  
+  <textarea placeholder="Additional Comments"></textarea>
+ </div>
+ <div>
+  <button id="submit"> Send
+ </button>
+ </div>
+</form>
+</body>
+</html>
