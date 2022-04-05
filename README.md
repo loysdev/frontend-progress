@@ -1,5 +1,5 @@
 # frontend-progress
-Esse projeto é onde estarei colocando o meu progresso com HTML, CSS e Javascript
+Neste projeto estarei colocando o meu progresso com HTML, CSS e Javascript
 
 ## Primeira página HTML com CSS
 ![image](https://user-images.githubusercontent.com/102394331/161663838-223e6f69-cad9-42cd-a591-19d45c250189.png)
